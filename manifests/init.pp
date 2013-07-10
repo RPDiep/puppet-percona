@@ -15,7 +15,7 @@ class puppet-percona ( $mysqlrootpassword  = undef, ) {
       package {'percona-release':
         ensure   => installed,
         provider => rpm,
-        source   => 'http://files.pcxpro.nl/percona-release-0.0-1.x86_64.rpm',
+        source   => 'http://www.percona.com/redir/downloads/percona-release/percona-release-0.0-1.x86_64.rpm',
       }
     }
 
