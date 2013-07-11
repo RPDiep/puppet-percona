@@ -7,6 +7,8 @@ Requires puppetlabs-mysql.
 
 Just declare as follows:
 
-```class {'puppet-percona':
+```ruby
+class {'puppet-percona':
   mysqlrootpassword => 'CHANGEME',
-}```
+}
+```
